@@ -60,4 +60,3 @@ This will safely handle your custom objects!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-````
