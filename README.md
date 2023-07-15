@@ -1,11 +1,26 @@
-## About The Project
+````## About The Project
 
 Safe is a simple library that allows you to access safely to nullable properties, without worrying
 about null pointer exceptions. Currently supports most of the common types, including lists and maps
 however if your needed type doesn't have a ```safe<Type>()``` function feel free to use the generic
 ``` .safe(default: T) ``` method.
 
-<!-- USAGE EXAMPLES -->
+## Getting started
+Add JitPack repository to your root build.gradle file
+
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+```
+
+Add the dependency
+
+```groovy
+dependencies {
+    implementation 'com.github.aradevs:safe:1.0.0'
+}
+```
 
 ## Usage
 
@@ -45,3 +60,4 @@ This will safely handle your custom objects!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+````
