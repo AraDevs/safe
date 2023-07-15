@@ -1,4 +1,4 @@
-````## About The Project
+## About The Project
 
 Safe is a simple library that allows you to access safely to nullable properties, without worrying
 about null pointer exceptions. Currently supports most of the common types, including lists and maps
