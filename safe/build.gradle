@@ -47,9 +47,9 @@ afterEvaluate{
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.aradevs'
+                groupId = 'com.aradevs.safe'
                 artifactId = 'safe'
-                version = '1.0.0'
+                version = '1.0.2'
             }
         }
     }
