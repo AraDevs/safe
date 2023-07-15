@@ -38,7 +38,7 @@ This will safely handle the null value and show a toast with the default value
 
 ```kotlin
     val yourSuperMessage: String? = null
-    Toast.makeText(this, yourSuperMessage, Toast.LENGTH_SHORT).show()
+    Toast.makeText(this, yourSuperMessage.safeString(), Toast.LENGTH_SHORT).show()
 ```
 
 This will safely handle the null value and show a toast with your default value
